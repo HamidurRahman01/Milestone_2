@@ -1,0 +1,22 @@
+nav > ul {
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin: 10px;   
+}
+nav li:hover{
+    background-color: brown;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.dropdown{
+    display: none;
+}
+.hidden:hover{
+    display: block;
+}
